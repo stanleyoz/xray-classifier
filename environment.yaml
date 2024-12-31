@@ -1,0 +1,13 @@
+name: xray_classifier
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - pytorch-cuda=11.8 # Replace with your CUDA version
+  - torchvision
+  - pillow
+  - numpy
+  - streamlit
